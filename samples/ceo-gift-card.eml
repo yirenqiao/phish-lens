@@ -1,0 +1,18 @@
+Authentication-Results: mx.example.org; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass header.from=gmail.com
+From:
+ "CEO Jordan Lee (jordan.lee@example-corp.com)" <jordan.lee.office@gmail.com>
+To: finance@example-corp.com
+Subject: Quick favor - time-sensitive
+Date: Fri, 09 Oct 2026 08:45:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Hi,
+
+I'm in back-to-back meetings and need you to handle something immediately.
+Please buy 5 gift cards for a client appreciation event and send me the codes.
+Don't call, just reply here.
+
+Jordan

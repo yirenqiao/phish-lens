@@ -1,0 +1,34 @@
+Return-Path: <bounces@mail.example-shop.com>
+Authentication-Results: mx.example.org; spf=pass
+ smtp.mailfrom=mail.example-shop.com; dkim=pass header.d=example-shop.com;
+ dmarc=pass header.from=example-shop.com
+From: "Example Shop" <news@example-shop.com>
+To: alex@example.org
+Subject: Your October reading list
+Date: Thu, 01 Oct 2026 09:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1458338670682454778=="
+
+--===============1458338670682454778==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Alex,
+
+Here are this month's new arrivals: https://www.example-shop.com/new
+
+Unsubscribe: https://www.example-shop.com/unsubscribe
+
+--===============1458338670682454778==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<p>Hi Alex,</p><p>Here are this month's <a href=3D"https://www.example-shop.c=
+om/new">new arrivals</a>.</p>
+<p><a href=3D"https://www.example-shop.com/unsubscribe">Unsubscribe</a></p></=
+body></html>
+
+--===============1458338670682454778==--
